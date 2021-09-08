@@ -1,14 +1,11 @@
 ---
 title: "第一篇博文"
-author: "klause"
-date: "9/8/2021"
-categories: ["R"]
+author: "Klause"
+date: 2020-09-08T21:13:14-05:00
+categories: ["Tech"]
 tags: ["R Markdown", "plot", "regression"]
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## R Markdown
    第一次有动力做属于自己的网站，这个网站的搭建过程可谓是筚路蓝缕，结果是好的。我在两年前学习到使用blogdown+netlify+rstudio+hugo的方法建设自己的网站有了些许基础，然而，让我没想到的是两年后去尝试搭建网站的时候，问题频出，对于第一篇博文的内容思考了很久，觉得把整个搭建过程分享出来是最合适的。
