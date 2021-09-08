@@ -1,14 +1,14 @@
-baseurl: https://example.com
+baseurl: https://klaustrista.xyz
 languageCode: en
 defaultContentLanguage: en
-title: Hugo Theme Dream
+title: Klaus & Trista's daily 
 theme: hugo-theme-dream
 params:
-  author: Yue Yang
+  author: Klaus
   avatar: /img/avatar.jpeg
   background: '#f7f7f7'
-  email: g1enyy0ung@gmail.com
-  headerTitle: Hugo Theme Dream
+  email: klausegong@gmail.com
+  headerTitle: Klaus & Trista's daily
   linkColor: seagreen
-  motto: Motto
-  siteStartYear: 2016
+  motto: La vie en rose
+  siteStartYear: 2021
