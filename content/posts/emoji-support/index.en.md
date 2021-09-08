@@ -1,13 +1,9 @@
 ---
-author: Dillon
-authorLink: https://dillonzq.com
 categories:
 - Markdown
 date: "2019-10-01T17:55:28+08:00"
-description: Guide to emoji usage in Hugo and LoveIt.
-draft: false
+description: Guide to emoji usage in Hugo and uBlogger.
 lastmod: "2019-10-01T17:55:28+08:00"
-lightgallery: true
 resources:
 - name: featured-image
   src: featured-image.jpg

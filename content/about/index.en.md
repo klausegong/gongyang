@@ -1,25 +1,24 @@
 ---
 date: "2019-08-02T11:04:49+08:00"
 draft: false
-lightgallery: true
 math:
   enable: true
-title: About LoveIt
+title: About uBlogger
 ---
 
 {{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt)
-[![GitHub forks](https://img.shields.io/github/forks/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt/fork)
+[![License](https://img.shields.io/github/license/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/upagge/uBlogger?style=social)](https://github.com/upagge/uBlogger)
+[![GitHub forks](https://img.shields.io/github/forks/upagge/uBlogger?style=social)](https://github.com/upagge/uBlogger/fork)
 {{< /style >}}
 
-> [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://dillonzq.com).
+> [:(far fa-kiss-wink-heart fa-fw): uBlogger](https://github.com/upagge/uBlogger) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [uPagge](https://upagge.ru).
 >
 > It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
-![Hugo Theme LoveIt](/images/Apple-Devices-Preview.png "Hugo Theme LoveIt")
+![Hugo Theme uBlogger](/images/Apple-Devices-Preview.png "Hugo Theme uBlogger")
 
 ### Features
 
@@ -63,8 +62,6 @@ title: About LoveIt
 * :(far fa-grin-tongue-wink fa-fw): **Twemoji** supported
 * :(fas fa-code fa-fw): Automatically **highlighting** code
 * :(far fa-copy fa-fw): **Copy code** to clipboard with one click
-* :(far fa-images fa-fw): **Images gallery** supported by [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js)
-* :(fab fa-font-awesome fa-fw): Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
 * :(far fa-sticky-note fa-fw): Extended Markdown syntax for **ruby annotation**
 * :(fas fa-percentage fa-fw): Extended Markdown syntax for **fraction**
 * :(fas fa-square-root-alt fa-fw): **Mathematical formula** supported by [$ \KaTeX $](https://katex.org/)
@@ -76,16 +73,15 @@ title: About LoveIt
 * :(far fa-bell fa-fw): Kinds of **admonitions** shortcode
 * :(fas fa-align-left fa-fw): **Custom style** shortcode
 * :(fab fa-js-square fa-fw): **Custom script** shortcode
-* :(fas fa-i-cursor fa-fw): **Animated typing** supported by [TypeIt](https://typeitjs.com/)
 * :(fas fa-arrow-down fa-fw): **Dynamic scroll** supported by [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 * :(fas fa-cookie-bite fa-fw): **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
 * ...
 
 ### License
 
-LoveIt is licensed under the **MIT** license.
+uBlogger is licensed under the **MIT** license.
 
-Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
+Check the [LICENSE file](https://github.com/upagge/uBlogger/blob/master/LICENSE) for details.
 
 Thanks to the authors of following resources included in the theme:
 
@@ -103,7 +99,6 @@ Thanks to the authors of following resources included in the theme:
 * [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js)
 * [clipboard.js](https://github.com/zenorocha/clipboard.js)
 * [Sharer.js](https://github.com/ellisonleao/sharer.js)
-* [TypeIt](https://typeitjs.com/)
 * [$ \KaTeX $](https://katex.org/)
 * [mermaid](https://github.com/knsv/mermaid)
 * [ECharts](https://echarts.apache.org/)
