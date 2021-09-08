@@ -1,14 +1,12 @@
 ---
-author: Dillon
-authorLink: https://dillonzq.com
 categories:
 - documentation
 date: "2020-03-06T21:29:01+08:00"
-description: Discover what the Hugo - LoveIt theme is all about and the core-concepts
+description: Discover what the Hugo - uBlog theme is all about and the core-concepts
   behind it.
-draft: false
-lastmod: "2020-03-06T21:29:01+08:00"
-lightgallery: true
+lastmod: "2020-12-15T11:21:43+03:00"
+page:
+  theme: wide
 resources:
 - name: featured-image
   src: featured-image.jpg
@@ -18,10 +16,11 @@ tags:
 title: Theme Documentation - Basics
 toc:
   auto: false
-weight: 1
+upd: Since the template began to support uPagge, you can not do without names. You
+  can find the changes by tag 1.x.x.
 ---
 
-Discover what the Hugo - **LoveIt** theme is all about and the core-concepts behind it.
+Discover what the Hugo - **uBlog** theme is all about and the core-concepts behind it.
 
 <!--more-->
 
@@ -47,33 +46,33 @@ The following steps are here to help you initialize your new website. If you don
 
 Hugo provides a `new` command to create a new website:
 
-```bash
+```shell
 hugo new site my_website
 cd my_website
 ```
 
 ### 2.2 Install the Theme
 
-The **LoveIt** theme’s repository is: [https://github.com/dillonzq/LoveIt](https://github.com/dillonzq/LoveIt).
+The **uBlogger** theme’s repository is: [https://github.com/upagge/uBlogger](https://github.com/upagge/uBlogger).
 
-You can download the [latest release :(far fa-file-archive fa-fw): .zip file](https://github.com/dillonzq/LoveIt/releases) of the theme and extract it in the `themes` directory.
+You can download the [latest release :(far fa-file-archive fa-fw): .zip file](https://github.com/upagge/uBlogger/releases) of the theme and extract it in the `themes` directory.
 
 Alternatively, clone this repository to the `themes` directory:
 
-```bash
-git clone https://github.com/dillonzq/LoveIt.git themes/LoveIt
+```shell
+git clone https://github.com/upagge/uBlogger.git themes/uBlogger
 ```
 
 Or, create an empty git repository and make this repository a submodule of your site directory:
 
-```bash
+```shell
 git init
-git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+git submodule add https://github.com/upagge/uBlogger.git themes/uBlogger
 ```
 
 ### 2.3 Basic Configuration {#basic-configuration}
 
-The following is a basic configuration for the LoveIt theme:
+The following is a basic configuration for the uBlogger theme:
 
 ```toml
 baseURL = "http://example.org/"
@@ -84,11 +83,11 @@ languageCode = "en"
 title = "My New Hugo Site"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "LoveIt"
+theme = "uBlogger"
 
 [params]
-  # LoveIt theme version
-  version = "0.2.X"
+  # uBlogger theme version
+  version = "1.3.X"
 
 [menu]
   [[menu.main]]
@@ -123,7 +122,7 @@ theme = "LoveIt"
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    # false is a necessary configuration
     noClasses = false
 ```
 
@@ -135,7 +134,7 @@ When building the website, you can set a theme by using `--theme` option. Howeve
 
 Here is the way to create your first post:
 
-```bash
+```shell
 hugo new posts/first_post.md
 ```
 
@@ -145,17 +144,19 @@ Feel free to edit the post file by adding some sample content and replacing the 
 By default all posts and pages are created as a draft. If you want to render these pages, remove the property `draft: true` from the metadata, set the property `draft: false` or add `-D`/`--buildDrafts` parameter to `hugo` command.
 {{< /admonition >}}
 
+{{< admonition type=info title="Archetypes" open=true >}}
+You can copy /uBlogger/archetypes/default.md to your archetypes folder to create a pre-configured post.
+{{< /admonition >}}
+
 ### 2.5 Launching the Website Locally
 
 Launch by using the following command:
 
-```bash
+```shell
 hugo serve
 ```
 
 Go to `http://localhost:1313`.
-
-![Basic configuration preview](basic-configuration-preview.png "Basic configuration preview")
 
 {{< admonition tip >}}
 When you run `hugo serve`, when the contents of the files change, the page automatically refreshes with the changes.
@@ -165,7 +166,7 @@ When you run `hugo serve`, when the contents of the files change, the page autom
 Since the theme use `.Scratch` in Hugo to implement some features,
 it is highly recommended that you add `--disableFastRender` parameter to `hugo server` command for the live preview of the page you are editing.
 
-```bash
+```shell
 hugo serve --disableFastRender
 ```
 {{< /admonition >}}
@@ -174,7 +175,7 @@ hugo serve --disableFastRender
 
 When your site is ready to deploy, run the following command:
 
-```bash
+```shell
 hugo
 ```
 
@@ -189,14 +190,14 @@ Alternatively, you can use [AWS Amplify](https://gohugo.io/hosting-and-deploymen
 
 ### 3.1 Site Configuration {#site-configuration}
 
-In addition to [Hugo global configuration](https://gohugo.io/overview/configuration/) and [menu configuration](#basic-configuration), **LoveIt** lets you define the following parameters in your site configuration (here is a `config.toml`, whose values are default).
+In addition to [Hugo global configuration](https://gohugo.io/overview/configuration/) and [menu configuration](#basic-configuration), **uBlogger** lets you define the following parameters in your site configuration (here is a `config.toml`, whose values are default).
 
 Please open the code block below to view the complete sample configuration :(far fa-hand-point-down fa-fw)::
 
 ```toml
 [params]
-  # {{< version 0.2.0 changed >}} LoveIt theme version
-  version = "0.2.X"
+  # {{< version 0.2.0 changed >}} uBlogger theme version
+  version = "1.3.X"
   # site description
   description = "This is My New Hugo Site"
   # site keywords
@@ -216,7 +217,7 @@ Please open the code block below to view the complete sample configuration :(far
   # {{< version 0.2.0 >}} App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "LoveIt"
+    title = "uBlogger"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -266,8 +267,6 @@ Please open the code block below to view the complete sample configuration :(far
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
-      # {{< version 0.2.5 >}} whether to use typeit animation for title name
-      typeit = false
 
   # Footer config
   [params.footer]
@@ -320,8 +319,6 @@ Please open the code block below to view the complete sample configuration :(far
       title = ""
       # subtitle shown in home page
       subtitle = "This is My New Hugo Site"
-      # whether to use typeit animation for subtitle
-      typeit = true
       # whether to show social links
       social = true
       # {{< version 0.2.0 >}} disclaimer (HTML format is supported)
@@ -404,10 +401,14 @@ Please open the code block below to view the complete sample configuration :(far
 
   # {{< version 0.2.0 changed >}} Page config
   [params.page]
+    # {{< version 1.0.0 new >}} main subject for articles, by default classic. {{< link "/theme-documentation-content/#theme" "more on themes" >}}}
+    theme = "classic"
     # {{< version 0.2.0 >}} whether to hide a page from home page
     hiddenFromHomePage = false
     # {{< version 0.2.0 >}} whether to hide a page from search results
     hiddenFromSearch = false
+    # {{< version 1.2.0 new >}} Allows you to hide the preview image on the article page
+    hiddenFeaturedImage = false
     # {{< version 0.2.0 >}} whether to enable twemoji
     twemoji = false
     # whether to enable lightgallery
@@ -422,6 +423,28 @@ Please open the code block below to view the complete sample configuration :(far
     linkToMarkdown = true
     # {{< version 0.2.4 >}} whether to show the full text content in RSS
     rssFullText = false
+    # {{< version 1.1.0 new >}} Post display settings on the page
+    [params.summary]
+      # {{< version 1.1.0 new >}} Display previews on the page of posts
+      hiddenImage = false
+      # {{< version 1.1.0 new >}} Allows you to hide the description
+      hiddenDescription = false
+      # {{< version 1.1.0 new >}} Allows you to hide the title
+      hiddenTitle = false
+    # {{< version 1.1.0 new >}} Tag display settings
+    [params.summary.tags]
+      # {{< version 1.1.0 new >}} One of the options for displaying tags
+      theme = "image"
+      # {{< version 1.1.0 new >}} Text color
+      color = "white"
+      # {{< version 1.1.0 new >}} Backing color
+      background = "black"
+      # {{< version 1.1.0 new >}} Tag transparency
+      transparency = 0.9
+    # {{< version 1.2.0 new >}} Fasting time display
+    [params.timeAgo]
+      enable = "false"
+      lang = "en"
     # {{< version 0.2.0 >}} Table of the contents config
     [params.page.toc]
       # whether to enable the table of the contents
@@ -495,73 +518,6 @@ Please open the code block below to view the complete sample configuration :(far
       Skype = false
       Trello = false
       Mix = false
-    # {{< version 0.2.0 changed >}} Comment config
-    [params.page.comment]
-      enable = true
-      # {{< link "https://disqus.com/" Disqus >}} comment config
-      [params.page.comment.disqus]
-        # {{< version 0.1.1 >}}
-        enable = false
-        # Disqus shortname to use Disqus in posts
-        shortname = ""
-      # {{< link "https://github.com/gitalk/gitalk" Gitalk >}} comment config
-      [params.page.comment.gitalk]
-        # {{< version 0.1.1 >}}
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
-      # {{< link "https://github.com/xCss/Valine" Valine >}} comment config
-      [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
-        avatar = "mp"
-        meta= ""
-        pageSize = 10
-        lang = ""
-        visitor = true
-        recordIP = true
-        highlight = true
-        enableQQ = false
-        serverURLs = ""
-        # {{< version 0.2.6 >}} emoji data file name, default is "google.yml"
-        # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
-        # located in "themes/LoveIt/assets/data/emoji/" directory
-        # you can store your own data files in the same path under your project:
-        # "assets/data/emoji/"
-        emoji = ""
-      # {{< link "https://developers.facebook.com/docs/plugins/comments" "Facebook comment" >}} config
-      [params.page.comment.facebook]
-        enable = false
-        width = "100%"
-        numPosts = 10
-        appId = ""
-        languageCode = ""
-      # {{< version 0.2.0 >}} {{< link "https://comments.app/" "Telegram comments" >}} config
-      [params.page.comment.telegram]
-        enable = false
-        siteID = ""
-        limit = 5
-        height = ""
-        color = ""
-        colorful = true
-        dislikes = false
-        outlined = false
-      # {{< version 0.2.0 >}} {{< link "https://commento.io/" "Commento" >}} comment config
-      [params.page.comment.commento]
-        enable = false
-      # {{< version 0.2.5 >}} {{< link "https://utteranc.es/" "Utterances" >}} comment config
-      [params.page.comment.utterances]
-        enable = false
-        # owner/repo
-        repo = ""
-        issueTerm = "pathname"
-        label = ""
-        lightTheme = "github-light"
-        darkTheme = "github-dark"
     # {{< version 0.2.7 >}} Third-party library config
     [params.page.library]
       [params.page.library.css]
@@ -582,17 +538,88 @@ Please open the code block below to view the complete sample configuration :(far
       [params.page.seo.publisher]
         name = ""
         logoUrl = ""
-
-  # {{< version 0.2.5 >}} TypeIt config
-  [params.typeit]
-    # typing speed between each step (measured in milliseconds)
-    speed = 100
-    # blinking speed of the cursor (measured in milliseconds)
-    cursorSpeed = 1000
-    # character used for the cursor (HTML format is supported)
-    cursorChar = "|"
-    # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
-    duration = -1
+  
+    # {{< version 1.1.0 changed >}} Comment config
+    [params.comment]
+      enable = true
+      # {{< version 1.0.0 new >}}
+      # {{< link "https://github.com/umputun/remark42/" Remark42 >}} comment config
+      [params.comment.remark42]
+        enable = false
+        # the location of your server with Remark42
+        host = "https://remark.example.com"
+        # remark42 supports comments for several sites at once, this identifier indicates which site to display comments for.
+        site = "you_site_key"
+        # design theme
+        theme = "light"
+        # language
+        locale = "en"
+        # enable or disable smiley support
+        emailSubscribe = "true"
+      # {{< link "https://disqus.com/" Disqus >}} comment config
+      [params.comment.disqus]
+        # {{< version 0.1.1 >}}
+        enable = false
+        # Disqus shortname to use Disqus in posts
+        shortname = ""
+      # {{< link "https://github.com/gitalk/gitalk" Gitalk >}} comment config
+      [params.comment.gitalk]
+        # {{< version 0.1.1 >}}
+        enable = false
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
+      # {{< link "https://github.com/xCss/Valine" Valine >}} comment config
+      [params.comment.valine]
+        enable = false
+        appId = ""
+        appKey = ""
+        placeholder = ""
+        avatar = "mp"
+        meta= ""
+        pageSize = 10
+        lang = ""
+        visitor = true
+        recordIP = true
+        highlight = true
+        enableQQ = false
+        serverURLs = ""
+        # {{< version 0.2.6 >}} emoji data file name, default is "google.yml"
+        # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
+        # located in "themes/uBlogger/assets/data/emoji/" directory
+        # you can store your own data files in the same path under your project:
+        # "assets/data/emoji/"
+        emoji = ""
+      # {{< link "https://developers.facebook.com/docs/plugins/comments" "Facebook comment" >}} config
+      [params.comment.facebook]
+        enable = false
+        width = "100%"
+        numPosts = 10
+        appId = ""
+        languageCode = ""
+      # {{< version 0.2.0 >}} {{< link "https://comments.app/" "Telegram comments" >}} config
+      [params.comment.telegram]
+        enable = false
+        siteID = ""
+        limit = 5
+        height = ""
+        color = ""
+        colorful = true
+        dislikes = false
+        outlined = false
+      # {{< version 0.2.0 >}} {{< link "https://commento.io/" "Commento" >}} comment config
+      [params.comment.commento]
+        enable = false
+      # {{< version 0.2.5 >}} {{< link "https://utteranc.es/" "Utterances" >}} comment config
+      [params.comment.utterances]
+        enable = false
+        # owner/repo
+        repo = ""
+        issueTerm = "pathname"
+        label = ""
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
 
   # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
@@ -622,6 +649,11 @@ Please open the code block below to view the complete sample configuration :(far
       id = ""
       # server url for your tracker if you're self hosting
       server = ""
+    # {{< version 1.0.0 new >}}
+    # Yandex.Metrika
+    [params.analytics.yandex]
+      # your meter number
+      id = ""
 
   # {{< version 0.2.7 >}} Cookie consent config
   [params.cookieconsent]
@@ -636,7 +668,7 @@ Please open the code block below to view the complete sample configuration :(far
   [params.cdn]
     # CDN data file name, disabled by default
     # ("jsdelivr.yml")
-    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # located in "themes/uBlogger/assets/data/cdn/" directory
     # you can store your own data files in the same path under your project:
     # "assets/data/cdn/"
     data = ""
@@ -657,7 +689,6 @@ Please open the code block below to view the complete sample configuration :(far
     lineNos = true
     lineNumbersInTable = true
     # false is a necessary configuration
-    # ({{< link "https://github.com/dillonzq/LoveIt/issues/158" >}})
     noClasses = false
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
@@ -678,10 +709,9 @@ Please open the code block below to view the complete sample configuration :(far
     endLevel = 6
 
 # Author config
+# {{< version 1.0.0 changed >}}
 [author]
   name = "xxxx"
-  email = ""
-  link = ""
 
 # Sitemap config
 [sitemap]
@@ -748,7 +778,7 @@ You could enable these features with `hugo serve -e production`.
   data = ""
 ````
 
-The default CDN data file is located in `themes/LoveIt/assets/data/cdn/` directory.
+The default CDN data file is located in `themes/uBlogger/assets/data/cdn/` directory.
 You can store your own data file in the same path under your project: `assets/data/cdn/`.
 {{< /admonition >}}
 
@@ -779,11 +809,9 @@ Or You can set more options through a dict:
     title = "Mastodon"
 ```
 
-The default data of all supported social links is located in `themes/LoveIt/assets/data/social.yaml`,
+The default data of all supported social links is located in `themes/uBlogger/assets/data/social.yaml`,
 which is you can refer to.
 {{< /admonition >}}
-
-![Complete configuration preview](complete-configuration-preview.png "Complete configuration preview")
 
 ### 3.2 Favicons, Browserconfig, Manifest
 
@@ -808,11 +836,11 @@ Customize `browserconfig.xml` and `site.webmanifest` to set theme-color and back
 Hugo **extended** version is necessary for the style customization.
 {{< /admonition >}}
 
-**LoveIt** theme has been built to be as configurable as possible by defining custom `.scss` style files.
+**uBlogger** theme has been built to be as configurable as possible by defining custom `.scss` style files.
 
 The directory including the custom `.scss` style files is `assets/css` relative to **your project root directory**.
 
-In `assets/css/_override.scss`, you can override the variables in `themes/LoveIt/assets/css/_variables.scss` to customize the style.
+In `assets/css/_override.scss`, you can override the variables in `themes/uBlogger/assets/css/_variables.scss` to customize the style.
 
 Here is a example:
 
@@ -825,7 +853,7 @@ In `assets/css/_custom.scss`, you can add some css style code to customize the s
 
 ## 4 Multilingual and i18n
 
-**LoveIt** theme is fully compatible with Hugo multilingual mode, which provides in-browser language switching.
+**uBlogger** theme is fully compatible with Hugo multilingual mode, which provides in-browser language switching.
 
 ![Language Switch](language-switch.gif "Language Switch")
 
@@ -974,15 +1002,15 @@ Use [Front Matter parameter](https://gohugo.io/content-management/multilingual#t
 
 Translations strings are used for common default values used in the theme. Translations are available in [some languages](#language-compatibility), but you may use another language or want to override default values.
 
-To override these values, create a new file in your local i18n folder `i18n/<languageCode>.toml` and inspire yourself from `themes/LoveIt/i18n/en.toml`.
+To override these values, create a new file in your local i18n folder `i18n/<languageCode>.toml` and inspire yourself from `themes/uBlogger/i18n/en.toml`.
 
-By the way, as these translations could be used by other people, please take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/dillonzq/LoveIt/pulls) to the theme!
+By the way, as these translations could be used by other people, please take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/upagge/uBlogger/pulls) to the theme!
 
 ## 5 Search
 
 {{< version 0.2.0 >}}
 
-Based on [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/), searching is supported in **LoveIt** theme.
+Based on [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/), searching is supported in **uBlogger** theme.
 
 ### 5.1 Output Configuration
 

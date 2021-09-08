@@ -1,6 +1,4 @@
 ---
-author: Dillon
-authorLink: https://dillonzq.com
 categories:
 - documentation
 date: "2020-03-04T16:29:41+08:00"
@@ -8,7 +6,6 @@ description: Hugo provides multiple built-in shortcodes for author convenience a
   to keep your markdown content clean.
 draft: false
 lastmod: "2020-03-04T16:29:41+08:00"
-lightgallery: true
 resources:
 - name: featured-image
   src: featured-image.png
@@ -120,7 +117,6 @@ Example `instagram` input:
 
 The rendered output looks like this:
 
-{{< instagram BWNjjyYFxVx hidecaption >}}
 
 ## 5 param
 

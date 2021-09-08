@@ -1,16 +1,14 @@
 ---
-author: Dillon
-authorLink: https://dillonzq.com
 categories:
 - documentation
 date: "2020-03-05T15:58:26+08:00"
 description: Find out how to create and organize your content quickly and intuitively
-  in LoveIt theme.
-draft: false
-lastmod: "2020-03-05T15:58:26+08:00"
-lightgallery: true
+  in uBlogger theme.
+lastmod: "2020-03-15T11:26:13+08:00"
 math:
   enable: true
+page:
+  theme: full
 resources:
 - name: featured-image
   src: featured-image.jpg
@@ -20,10 +18,10 @@ tags:
 title: Theme Documentation - Content
 toc:
   auto: false
-weight: 2
+upd: You can now customize the post preview design
 ---
 
-Find out how to create and organize your content quickly and intuitively in **LoveIt** theme.
+Find out how to create and organize your content quickly and intuitively in **uBlogger** theme.
 
 <!--more-->
 
@@ -75,12 +73,42 @@ subtitle: ""
 date: 2020-03-04T15:58:26+08:00
 lastmod: 2020-03-04T15:58:26+08:00
 draft: true
+# author {{< version 1.0.0 changed >}}
 author: ""
+# authorLink {{< version 1.0.0 deleted >}} 
 authorLink: ""
 description: ""
 license: ""
 images: []
 
+# {{< version 1.0.0 new >}} Article Update Information
+upd: ""
+
+# {{< version 1.0.0 new >}} Author's comment, is shown above all comments
+authorComment: ""
+
+# {{< version 1.2.0 change >}} article design theme
+theme: ""
+# {{< version 1.2.0 new >}} Allows you to hide the preview image on the article page
+hiddenFeaturedImage: false
+
+# {{< version 1.2.0 change >}} Post display settings on the page
+summaryStyle:
+    # {{< version 1.1.0 new >}} Display previews on the page of posts
+    hiddenImage: false
+    # {{< version 1.1.0 new >}} Allows you to hide the description
+    hiddenDescription: false
+    # {{< version 1.1.0 new >}} Allows you to hide the title
+    hiddenTitle: true
+    tags:
+      # {{< version 1.1.0 new >}} One of the options for displaying tags
+      theme: "image"
+      # {{< version 1.1.0 new >}} Text color
+      color: "white"
+      # {{< version 1.1.0 new >}} Backing color
+      background: "black"
+      # {{< version 1.1.0 new >}} Tag transparency
+      transparency: 0.9
 tags: []
 categories: []
 featuredImage: ""
@@ -89,7 +117,7 @@ featuredImagePreview: ""
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: false
-lightgallery: true
+
 ruby: true
 fraction: true
 fontawesome: true
@@ -136,8 +164,8 @@ seo:
 * **date**: the datetime assigned to this page, which is usually fetched from the `date` field in front matter, but this behaviour is configurabl in the [site configuration](../theme-documentation-basics#site-configuration).
 * **lastmod**: the datetime at which the content was last modified.
 * **draft**: if `true`, the content will not be rendered unless the `--buildDrafts`/`-D` flag is passed to the `hugo` command.
-* **author**: the author for the content.
-* **authorLink**: the link of the author.
+* **author**: {{< version 1.0.0 changed >}} the author for the content.
+* **authorLink**: {{< version 1.0.0 deleted >}} the link of the author.
 * **description**: the description for the content.
 * **license**: the special lisence for this content.
 * **images**: page images for Open Graph and Twitter Cards.
@@ -183,9 +211,106 @@ resources:
 ```
 {{< /admonition >}}
 
+### Theme 
+{{< version 1.0.0 new >}}
+
+You can choose one of three topics for an article. The differences between them are in the location of the image and the title of the article with metadata.
+
+All themes are adaptable to any screen size.
+
+Available values: `classic`, `wide`, `full`. This page uses design - full.
+
+{{< admonition type=tip title="Idea" open=true >}}
+If you combine them with toc, you can get even more styling options.
+{{< /admonition >}}
+
+#### classic
+
+![Theme classic](theme-classic.jpg 'Theme classic')
+
+#### wide
+
+![Theme wide](theme-wide.jpg 'Theme wide')
+
+#### full
+
+![Theme full](theme-full.jpg 'Theme full')
+
+### Author {#author}
+{{< version 1.0.0 changed >}}
+
+Many authors are now supported - you can write more than one article.
+
+For your convenience, author data is stored as json in the data/authors folder. Don't forget to create it.
+
+{{< admonition type=example title="Example" open=true >}}
+You can see the author's example at the end of this article.
+{{< /admonition >}}
+
+Format JSON:
+
+```json
+{
+  "name": "Struchkov Mark",
+  "nickname": "uPagge",
+  "about": "Trusted user pc",
+  "avatar": "https://upagge.ru/img/ava.jpg",
+  "link": "https://uPagge.ru",
+  "email": "me@upagge.ru",
+  "ps": "If you like this topic, put an asterisk in GitHub, it will be a pleasure for me"
+}
+```
+
+### :baguette_bread: Breadcrumbs {#u-breadcrumbs}
+{{< version 1.0.0 new >}}
+
+[This is quite](https://developers.google.com/search/docs/data-types/breadcrumb) a useful chip for SEO optimization, it is implemented in all three themes. _Support for opengraph._
+
+Traditionally, Breadcrumbs are placed above the header.
+
+They contain a path by sections to the current page, with links to sections. For posts it is the main page of the site, then the category of the post and the name of the post without a link.
+
+### Disable content for H1-H2
+
+You can disable default characters '#', '|' by setting the correct id. It must start with 'u-'.
+
+You can use this to set emoji or partition number.
+
+![Example with Emoji](h-emoji.jpg 'Example with Emoji')
+
+### Summary display settings
+
+You can customize the summary view to your taste by changing the following parameters.
+
+```yaml
+summaryStyle:
+    hiddenImage: false
+    hiddenDescription: false
+    hiddenTitle: true
+    tags:
+      theme: "image"
+      color: "white"
+      background: "black"
+      transparency: 0.9
+```
+
+What kinds of tags are available:
+* image. Tags on the picture
+* footer. Tags in footer summary
+* under-footer. Tags under summary
+
+These parameters, together with the scss override, allow you to customize the display quite flexibly.
+
+```css
+$article-summary-border-radius: 32px;
+$article-summary-image-border-radius: 30px;
+```
+
+The global setting is, as always, available in the main configuration file
+
 ## 3 Content Summaries
 
-**LoveIt** theme uses the summary of the content to display abstract information in the home page. Hugo can generate summaries of your content.
+**uBlogger** theme uses the summary of the content to display abstract information in the home page. Hugo can generate summaries of your content.
 
 ![Summary Preview](summary.png "Summary Preview")
 
@@ -215,7 +340,7 @@ You might want your summary to be something other than the text that starts the 
 
 You might want your description in the `description` variable of the article front matter as the summary.
 
-You may add the `<!--more-->` summary divider at the start of the article. Keep content that comes before the summary divider empty. Then **LoveIt** theme will use your description as the summary.
+You may add the `<!--more-->` summary divider at the start of the article. Keep content that comes before the summary divider empty. Then **uBlogger** theme will use your description as the summary.
 
 ### Priority Order of Summary Selection
 
@@ -230,13 +355,23 @@ Because there are multiple ways in which a summary can be specified it is useful
 It is not recommended to include rich text block elements in the summary, which will cause typographic errors. Such as code blocks, pictures, tables, etc.
 {{< /admonition >}}
 
+### TimeAgo
+{{< version 1.2.0 new >}}
+
+TimeAgo allows you to display the date of publication of a post in the style of social networks, as opposed to the current time. For example, "4 minutes ago," "one day ago"
+
+---
+![time ago](time_ago.jpg 'Here is what it looks like')
+
+---
+
 ## 4 Basic Markdown Syntax
 
 This part is shown in the [basic markdown syntax page](../basic-markdown-syntax/).
 
 ## 5 Extended Markdown Syntax {#extended-markdown-syntax}
 
-**LoveIt** theme has some extended syntax elements for you to write articles.
+**uBlogger** theme has some extended syntax elements for you to write articles.
 
 ### Emoji Support
 
@@ -244,7 +379,7 @@ This part is shown in the [emoji support page](../emoji-support/).
 
 ### Mathematical Formula
 
-**LoveIt** theme supports mathematical formulas based on [$ \KaTeX $](https://katex.org/).
+**uBlogger** theme supports mathematical formulas based on [$ \KaTeX $](https://katex.org/).
 
 Set the property `enable = true` under `[params.math]` in your [site configuration](../theme-documentation-basics#site-configuration)
 and the property `math: true` of the article front matter to enable the automatic rendering of mathematical formulas.
@@ -317,7 +452,7 @@ $$ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} $$
 
 ### Ruby Annotation {#ruby}
 
-An extended Markdown syntax for **ruby annotation** is supported in **LoveIt** theme:
+An extended Markdown syntax for **ruby annotation** is supported in **uBlogger** theme:
 
 ```markdown
 [Hugo]{?^}(An open-source static site generator)
@@ -331,7 +466,7 @@ The rendered output looks like this:
 
 {{< version 0.2.0 >}}
 
-An extended Markdown syntax for **fraction** is supported in **LoveIt** theme:
+An extended Markdown syntax for **fraction** is supported in **uBlogger** theme:
 
 ```markdown
 [Light]{?/}[Dark]
@@ -347,7 +482,7 @@ The rendered output looks like this:
 
 ### Font Awesome {#fontawesome}
 
-**LoveIt** theme uses [Font Awesome](https://fontawesome.com/) as the icon library.
+**uBlogger** theme uses [Font Awesome](https://fontawesome.com/) as the icon library.
 You can easily use these icons in your articles.
 
 Get the `class` of icons you wanted from the [Font Awesome website](https://fontawesome.com/icons?d=gallery).
