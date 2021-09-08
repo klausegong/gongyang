@@ -6,8 +6,6 @@ categories: ["Tech"]
 tags: ["R Markdown", "plot", "regression"]
 ---
 
-
-## R Markdown
    第一次有动力做属于自己的网站，这个网站的搭建过程可谓是筚路蓝缕，结果是好的。我在两年前学习到使用blogdown+netlify+rstudio+hugo的方法建设自己的网站有了些许基础，然而，让我没想到的是两年后去尝试搭建网站的时候，问题频出，对于第一篇博文的内容思考了很久，觉得把整个搭建过程分享出来是最合适的。
    （1）第一个最关键的参考网站是https://cosx.org/2018/01/build-blog-with-blogdown-hugo-netlify-github/（用R语言的blogdown+hugo+netlify+github建博客）,这里要注意一点文章中有叫删除public文件夹千万不要这样做，删除了netifly就没办法根据Hugo内容搭建网站了，千万注意。
   （2）第二个然我崩溃的地方在于以前rstudio通过git将网站内容于github同步，只需要验证github账号和密码就可以了，不幸的是github自2018年以后就不再支持通过账号和密码验证这种办法，只能通过SSH，好家伙，我一个非计算机科班出身的小白，2个多小时的学习后大概弄明白了ssh是个啥，参考了这个网站https://www.jianshu.com/p/be58fa27a704 按照这个网站的方法做完你就会掉到另外一个坑里面，你会发现还是会弹出账号和密码验证的框，

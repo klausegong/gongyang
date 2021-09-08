@@ -1,6 +1,6 @@
 baseurl: https://klaustrista.xyz
-languageCode: en
-defaultContentLanguage: en
+languageCode: zh-CN
+defaultContentLanguage: zh-CN
 title: Klaus & Trista's daily 
 theme: hugo-theme-dream
 params:
@@ -10,5 +10,5 @@ params:
   email: klausegong@gmail.com
   headerTitle: Klaus & Trista's daily
   linkColor: seagreen
-  motto: La vie en rose
+  motto: 缘分注定的
   siteStartYear: 2021
