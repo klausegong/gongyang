@@ -1,361 +1,36 @@
-baseURL: https://ublogger.netlify.app/
+baseURL: https://example.com/
+title: Hugo Theme MemE
+languageCode: en
+hasCJKLanguage: no
+copyright: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)'
+theme: hugo-theme-meme
+newContentEditor: ''
 defaultContentLanguage: en
-theme: uBlogger
-title: uBlogger
+defaultContentLanguageInSubdir: no
+pluralizeListTitles: no
+summaryLength: 42
+enableEmoji: no
+footnoteReturnLinkContents: ↩
+enableGitInfo: no
 enableRobotsTXT: yes
-enableGitInfo: yes
-enableEmoji: yes
-languages:
-  en:
-    copyright: This work is licensed under a Creative Commons Attribution-NonCommercial
-      4.0 International License.
-    hasCJKLanguage: no
-    languageCode: en
-    languageName: English
-    menu:
-      main:
-        - identifier: posts
-          name: Posts
-          post: ''
-          pre: ''
-          title: ''
-          url: /posts/
-          weight: 1
-        - identifier: tags
-          name: Tags
-          post: ''
-          pre: ''
-          title: ''
-          url: /tags/
-          weight: 2
-        - identifier: categories
-          name: Categories
-          post: ''
-          pre: ''
-          title: ''
-          url: /categories/
-          weight: 3
-        - identifier: documentation
-          name: Docs
-          post: ''
-          pre: ''
-          title: ''
-          url: /categories/documentation/
-          weight: 4
-        - identifier: about
-          name: About
-          post: ''
-          pre: ''
-          title: ''
-          url: /about/
-          weight: 5
-        - identifier: github
-          name: ''
-          post: ''
-          pre: <i class='fab fa-github fa-fw'></i>
-          title: GitHub
-          url: https://github.com/upagge/ublogger
-          weight: 6
-    paginate: 12
-    params:
-      app:
-        iconColor: '#5bbad5'
-        noFavicon: no
-        svgFavicon: ''
-        themeColor: '#ffffff'
-        tileColor: '#da532c'
-        title: uBlogger
-      description: About uBlogger Theme
-      home:
-        posts:
-          enable: yes
-          paginate: 6
-        profile:
-          avatarURL: /images/avatar.png
-          disclaimer: ''
-          enable: yes
-          gravatarEmail: ''
-          social: yes
-          subtitle: A Clean, Elegant but Advanced Hugo Theme
-          title: uBlogger | Hugo Theme
-        rss: 10
-      keywords:
-        - Theme
-        - Hugo
-      search:
-        absoluteURL: no
-        algolia:
-          appID: PASDMWALPK
-          index: index.en
-          searchKey: b42948e51daaa93df92381c8e2ac0f93
-        contentLength: 4000
-        enable: yes
-        highlightTag: em
-        maxResultLength: 10
-        placeholder: ''
-        snippetLength: 30
-        type: algolia
-      social:
-        Angellist: ''
-        Bandcamp: ''
-        Behance: ''
-        Bilibili: ''
-        Bitbucket: ''
-        Codepen: ''
-        Deviantart: ''
-        Devto: ''
-        Discord: xxxxxxxxx
-        DockerHub: ''
-        Douban: ''
-        Dribbble: ''
-        Email: xxxx@xxxx.com
-        Facebook: xxxx
-        Fivehundredpx: ''
-        Flickr: ''
-        Foursquare: ''
-        FreeCodeCamp: ''
-        GitHub: xxxx
-        Gitea: ''
-        Gitlab: ''
-        Goodreads: ''
-        Googlescholar: ''
-        Hackernews: ''
-        Instagram: xxxx
-        Jsfiddle: ''
-        Keybase: ''
-        Kickstarter: ''
-        Lastfm: ''
-        Leanpub: ''
-        Linkedin: ''
-        Mastodon:
-          id: '@xxxx'
-          prefix: https://mastodon.technology/
-        Matrix: ''
-        Medium: ''
-        Mix: ''
-        Odnoklassniki: ''
-        Patreon: ''
-        Paypal: ''
-        Pinterest: ''
-        Quora: ''
-        RSS: yes
-        Reddit: ''
-        Researchgate: ''
-        Skype: ''
-        Slidershare: ''
-        Snapchat: ''
-        Soundcloud: ''
-        Spotify: ''
-        Stackoverflow: ''
-        Steam: ''
-        Strava: ''
-        Telegram: xxxx
-        Thingiverse: ''
-        Tumblr: ''
-        Twitch: ''
-        Twitter: xxxx
-        Udemy: ''
-        VK: ''
-        Vine: ''
-        Weibo: ''
-        Whatsapp: ''
-        Wordpress: ''
-        XMPP: ''
-        Xing: ''
-        Youtubechannel: ''
-        Youtubecustom: ''
-        Youtubelegacy: xxxx
-        Zhihu: ''
-    weight: 1
-params:
-  analytics:
-    enable: yes
-    fathom:
-      id: ''
-      server: ''
-    google:
-      anonymizeIP: yes
-      gtag: no
-      id: ''
-    yandex:
-      id: '70532758'
-  cdn:
-    data: jsdelivr.yml
-  comment:
-    commento:
-      enable: no
-    disqus:
-      enable: no
-      shortname: ''
-    enable: yes
-    facebook:
-      appId: ''
-      enable: no
-      languageCode: ''
-      numPosts: 10
-      width: 100%
-    gitalk:
-      clientId: ''
-      clientSecret: ''
-      enable: no
-      owner: ''
-      repo: ''
-    remark42:
-      enable: yes
-      host: https://comments.upagge.ru
-      locale: en
-      site: documentation
-    telegram:
-      color: ''
-      colorful: yes
-      dislikes: no
-      enable: no
-      height: ''
-      limit: 5
-      outlined: no
-      siteID: ''
-    utterances:
-      darkTheme: github-dark
-      enable: no
-      issueTerm: pathname
-      label: ''
-      lightTheme: github-light
-      repo: ''
-    valine:
-      appId: QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI
-      appKey: WBmoGyJtbqUswvfLh6L8iEBr
-      avatar: mp
-      emoji: ''
-      enable: no
-      enableQQ: no
-      highlight: yes
-      lang: ''
-      meta: ''
-      pageSize: 10
-      placeholder: ''
-      recordIP: yes
-      serverURLs: https://
-      visitor: yes
-  compatibility:
-    objectFit: no
-    polyfill: no
-  cookieconsent:
-    content:
-      dismiss: ''
-      link: ''
-      message: ''
-    enable: no
-  dateFormat: '2006-01-02'
-  defaultTheme: auto
-  fingerprint: ''
-  footer:
-    author: yes
-    copyright: yes
-    custom: ''
-    enable: yes
-    hugo: yes
-    icp: ''
-    license: <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/"
-      target="_blank">CC BY-NC 4.0</a>
-    since: 2019
-  gitRepo: https://github.com/upagge/dolboblog-theme
-  header:
-    desktopMode: fixed
-    mobileMode: auto
-    title:
-      logo: ''
-      name: uBlogger
-      post: ''
-      pre: <i class='fas fa-pencil-alt fa-fw'></i>
-  images: /logo.png
-  list:
-    dateFormat: 01-02
-    paginate: 20
-    rss: 10
-  page:
-    code:
-      copy: yes
-      maxShownLines: 10
-    fontawesome: yes
-    fraction: yes
-    hiddenFromHomePage: no
-    hiddenFromSearch: no
-    library:
-      css: {}
-      js: {}
-    linkToMarkdown: yes
-    mapbox:
-      accessToken: pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ
-      darkStyle: mapbox://styles/mapbox/dark-v10?optimize=true
-      fullscreen: yes
-      geolocate: yes
-      lightStyle: mapbox://styles/mapbox/light-v10?optimize=true
-      navigation: yes
-      scale: yes
-    math:
-      blockLeftDelimiter: ''
-      blockRightDelimiter: ''
-      copyTex: yes
-      enable: no
-      inlineLeftDelimiter: ''
-      inlineRightDelimiter: ''
-      mhchem: yes
-    rssFullText: no
-    ruby: yes
-    seo:
-      images: []
-      publisher:
-        logoUrl: /images/avatar.png
-        name: xxxx
-    share:
-      Baidu: no
-      Blogger: no
-      Buffer: no
-      Digg: no
-      Evernote: no
-      Facebook: yes
-      Flipboard: no
-      HackerNews: yes
-      Instapaper: no
-      Line: yes
-      Linkedin: no
-      Mix: no
-      Myspace: no
-      Odnoklassniki: no
-      Pinterest: no
-      Pocket: no
-      Reddit: no
-      Renren: no
-      Skype: no
-      Stumbleupon: no
-      Trello: no
-      Tumblr: no
-      Twitter: yes
-      VK: no
-      Weibo: yes
-      Whatsapp: no
-      Xing: no
-      enable: yes
-    toc:
-      auto: yes
-      enable: yes
-      keepStatic: no
-    twemoji: no
-  section:
-    dateFormat: 01-02
-    paginate: 20
-    rss: 10
-  seo:
-    image: /images/Apple-Devices-Preview.png
-    thumbnailUrl: /images/screenshot.png
-  verification:
-    baidu: ''
-    bing: ''
-    google: ''
-    pinterest: ''
-    yandex: ''
-  version: 2.0.X
+paginate: 5
+disablePathToLower: no
+relativeURLs: no
+uglyURLs: no
+permalinks:
+  categories: /categories/:slug/
+  tags: /tags/:slug/
+taxonomies:
+  category: categories
+  tag: tags
+frontmatter:
+  lastmod:
+    - lastmod
+    - :git
+    - :fileModTime
+    - :default
 markup:
+  defaultMarkdownHandler: goldmark
   goldmark:
     extensions:
       definitionList: yes
@@ -365,51 +40,391 @@ markup:
       table: yes
       taskList: yes
       typographer: yes
+    parser:
+      attribute: yes
+      autoHeadingID: yes
+      autoHeadingIDType: github
     renderer:
+      hardWraps: no
       unsafe: yes
+      xHTML: no
   highlight:
     codeFences: yes
-    guessSyntax: yes
+    guessSyntax: no
     lineNos: yes
     lineNumbersInTable: yes
     noClasses: no
   tableOfContents:
     endLevel: 6
+    ordered: yes
     startLevel: 2
+minify:
+  tdewolff:
+    html:
+      keepWhitespace: no
 author:
-  name: upagge.en
-sitemap:
-  changefreq: weekly
-  filename: sitemap.xml
-  priority: 0.5
-Permalinks:
-  posts: :filename
-privacy:
-  googleAnalytics: {}
-  twitter:
-    enableDNT: yes
-  youtube:
-    privacyEnhanced: yes
+  avatar: /icons/apple-touch-icon.png
+  email: reuixiy@gmail.com
+  motto: Viva La Vida
+  name: reuixiy
+  twitter: reuixiy
+  website: https://io-oi.me/
+related:
+  includeNewer: yes
+  indices:
+    - name: categories
+      weight: 100
+    - name: tags
+      weight: 95
+    - name: date
+      pattern: '2006'
+      weight: 10
+  threshold: 80
+  toLower: yes
 mediaTypes:
-  text/plain:
-    suffixes: md
+  application/atom+xml:
+    suffixes: xml
 outputFormats:
-  MarkDown:
-    isHTML: no
+  Algolia:
+    baseName: algolia
     isPlainText: yes
-    mediaType: text/plain
+    mediaType: application/json
+    notAlternative: yes
+  SearchIndex:
+    baseName: search
+    mediaType: application/json
+  SectionsAtom:
+    baseName: atom
+    mediaType: application/atom+xml
+  SectionsRSS:
+    baseName: rss
+    mediaType: application/rss+xml
 outputs:
   home:
     - HTML
-    - RSS
-    - JSON
-  page:
-    - HTML
-    - MarkDown
-  section:
-    - HTML
-    - RSS
-  taxonomy:
-    - HTML
-    - RSS
-  taxonomyTerm: HTML
+    - SectionsAtom
+    - SectionsRSS
+    - SearchIndex
+  page: HTML
+  section: HTML
+  taxonomy: HTML
+  term: HTML
+services:
+  rss:
+    limit: -1
+menu:
+  main:
+    - name: Posts
+      post: archive
+      pre: internal
+      url: /posts/
+      weight: 2
+    - name: Categories
+      post: th
+      pre: internal
+      url: /categories/
+      weight: 3
+    - name: Tags
+      post: tags
+      pre: internal
+      url: /tags/
+      weight: 4
+    - name: About
+      post: user-circle
+      pre: internal
+      url: /about/
+      weight: 5
+    - identifier: theme-switcher
+      weight: 6
+    - identifier: lang-switcher
+      weight: 7
+    - identifier: search
+      post: search
+      weight: 8
+params:
+  activeInSection: no
+  algoliaApiKey: ''
+  algoliaAppId: ''
+  algoliaIndexName: ''
+  anchorIcon: link
+  anchorSymbol: '#'
+  autoDetectImages: yes
+  autoHideLangToggle: yes
+  autoLoadComments: no
+  backToTopIcon: arrow-up
+  badgeTitlePrefix: 'Updated @ '
+  busuanziPagePVIcon: eye
+  busuanziSitePVIcon: eye
+  busuanziSitePVText: Site PV
+  busuanziSiteUVIcon: user
+  busuanziSiteUVText: Site UV
+  captionPrefix: '◎ '
+  categoryBy: categories
+  categoryDelimiter: /
+  categoryIcon: folder
+  chineseZodiac: yes
+  customFooter: ''
+  defaultTheme: light
+  deleteHrBeforeDropCap: no
+  disableMathJaxMenu: no
+  displayBackToTopInHome: yes
+  displayBackToTopOnMobile: no
+  displayBusuanziPagePV: no
+  displayBusuanziSiteUVAndPV: no
+  displayCategory: yes
+  displayCommitHash: yes
+  displayCommitMessage: yes
+  displayCopyleftSymbol: no
+  displayCopyrightSymbol: yes
+  displayEditLink: yes
+  displayExpiredDate: yes
+  displayFeedback: yes
+  displayFooter: yes
+  displayFooterInHome: yes
+  displayHeaderInHome: yes
+  displayListTitle: yes
+  displayMenuInHome: yes
+  displayModifiedDate: yes
+  displayPostCopyright: yes
+  displayPostDescription: yes
+  displayPostGitInfo: no
+  displayPostShare: yes
+  displayPosts: yes
+  displayPostsCount: yes
+  displayPoweredBy: yes
+  displayPublishedDate: yes
+  displayReadingTime: yes
+  displayRelatedPosts: yes
+  displayShareOnText: no
+  displaySiteCopyright: yes
+  displaySiteCreatedYear: yes
+  displayTOCNum: yes
+  displayTOCTitle: yes
+  displayTaxonomyTermCount: yes
+  displayUpdatedBadge: yes
+  displayWordCount: yes
+  disqusShortname: ''
+  duration: 0.5
+  editIcon: edit
+  editText: Edit Me?
+  enableAboutPageMinimalFooter: no
+  enableAlgoliaSearch: no
+  enableAnchorAutoHide: yes
+  enableAnchorLink: yes
+  enableBackToTop: yes
+  enableBackToTopAutoHide: yes
+  enableBadgeTitle: yes
+  enableCaption: yes
+  enableChinesePunctuationGlyphCorrection: no
+  enableComments: no
+  enableCopy: yes
+  enableCopyAutoHide: yes
+  enableDarkMode: yes
+  enableDisqus: no
+  enableDropCap: yes
+  enableDropCapAfterHr: no
+  enableEmphasisPoint: no
+  enableFingerprint: yes
+  enableFooter: yes
+  enableForceHTTPS: no
+  enableGitalk: no
+  enableGoogleAdUnits: no
+  enableGoogleAnalytics: no
+  enableGoogleAutoAds: no
+  enableHeader: yes
+  enableHeaderAutoHide: no
+  enableHeadingsAnchor: yes
+  enableHighlight: yes
+  enableImageHost: no
+  enableInstantPage: yes
+  enableJustify: no
+  enableKaTeX: no
+  enableLangToggle: no
+  enableLunrSearch: yes
+  enableMathJax: no
+  enableMediumZoom: yes
+  enableMenu: yes
+  enableMermaid: no
+  enableMinimalFooter: no
+  enableNavToggle: yes
+  enableOverflowY: yes
+  enableParagraphIndent: yes
+  enablePostCopyright: yes
+  enablePostGitInfo: no
+  enablePostMeta: yes
+  enablePostMetaInHome: yes
+  enablePostNav: yes
+  enablePostShare: yes
+  enablePostTags: yes
+  enablePostUpdatedBadge: yes
+  enableRelatedPosts: yes
+  enableSRI: no
+  enableServiceWorker: no
+  enableSmallCaps: yes
+  enableSmoothScroll: yes
+  enableSocials: yes
+  enableTOC: no
+  enableTagCloud: yes
+  enableTree: yes
+  enableUtterances: no
+  enableValine: no
+  enableVerticalBarStructure: no
+  enableVideoHost: no
+  expiredDateIcon: calendar-times
+  feedbackIcon: question
+  feedbackText: Feedback
+  fofPoster: ''
+  fofVideoMp4: ''
+  fofVideoWebm: ''
+  fontFamilyBody: '''IBM Plex Serif'', serif'
+  fontFamilyCaption: ''
+  fontFamilyCode: '''Source Code Pro'', monospace'
+  fontFamilyFooter: ''
+  fontFamilyHeadings: '''Comfortaa'', sans-serif'
+  fontFamilyMenu: ''
+  fontFamilyQuote: ''
+  fontFamilySiteBrand: ''
+  fontFamilyTOC: ''
+  fontFamilyTitle: '''Comfortaa'', sans-serif'
+  fontSize: 18
+  fontUnit: em
+  fontsLink: https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@700&display=swap
+  footnoteReturnLinkIcon: angle-up
+  gitIcon: code-branch
+  gitalkAdmin: your_gitalk_admin
+  gitalkClientID: your_client_id
+  gitalkClientSecret: your_client_secret
+  gitalkCreateIssueManually: no
+  gitalkDistractionFreeMode: no
+  gitalkEnableHotKey: yes
+  gitalkLable: Gitalk
+  gitalkLanguage: en
+  gitalkOwner: your_gitalk_owner
+  gitalkPagerDirection: last
+  gitalkPerPage: 10
+  gitalkProxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
+  gitalkRepo: your_repository
+  googleAdClient: ''
+  googleAdSlot: ''
+  googleSiteVerification: ''
+  groupByMonth: yes
+  headAlso: no
+  headerBackground: 'linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a
+    30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%)'
+  headerLayout: flex
+  headingsOpt: 1-6
+  hideLangToggleInHome: no
+  hideThemeToggle: no
+  hideThemeToggleInHome: no
+  homeDescription: ''
+  homeKeywords: ''
+  homeLayout: posts
+  homeLinksDelimiter: ''
+  homeLinksPadding: 1
+  homeLogo: ''
+  homeLogoLink: ''
+  homeMotto: ''
+  homePoetry: []
+  homePoster: ''
+  homeTitle: ''
+  homeVideoMp4: ''
+  homeVideoWebm: ''
+  hrefTargetBlank: yes
+  i18nMonth: no
+  i18nYear: no
+  iconAnimation: yes
+  iconBetweenYearAndAuthor: heart
+  iconColor: '#f06292'
+  imageHostURL: https://example.com/
+  includeContent: yes
+  indentFirstParagraph: no
+  insertHrBySelf: yes
+  jsonLD: yes
+  largestFontSize: 2.5
+  limitEntriesLimit: -1
+  limitPostsLimit: -1
+  lineHeight: 1.618
+  linkHeadingsToTOC: yes
+  listDateFormat: January 2
+  listDatePosition: right
+  listWidth: 36
+  maxHeight: 20
+  mermaidTheme: default
+  mermaidThemeDark: dark
+  modifiedDateIcon: calendar-check
+  msApplicationTileColor: '#fff'
+  msgIcon: info
+  navHeight: 10em
+  openGraph: yes
+  original: yes
+  overrideSystemPreferences: no
+  paragraphStyle: margin
+  postMetaDateFormat: 2006.1.2
+  postNavInSection: yes
+  postTagsIcon: tag
+  postWidth: 36
+  primaryColorDark: 201, 65%, 62%
+  primaryColorLight: 220, 90%, 56%
+  publishedDateIcon: calendar-alt
+  readingTimeIcon: clock
+  relatedPostsIcon: plus-circle
+  relatedPostsNumber: 5
+  repoEditURL: ''
+  repoURL: ''
+  safariMaskColor: '#2a6df4'
+  shareOnDouban: yes
+  shareOnFacebook: yes
+  shareOnLinkedIn: yes
+  shareOnQQ: yes
+  shareOnQzone: yes
+  shareOnTelegram: yes
+  shareOnTwitter: yes
+  shareOnWeibo: yes
+  shareViaQRCode: yes
+  siteBrandFontColor: var(--color-contrast-high)
+  siteBrandFontSize: 1
+  siteBrandSVG: no
+  siteBrandSVGFill: '#fff'
+  siteBrandSVGHeight: 100
+  siteBrandSVGWidth: 250
+  siteCreatedTime: '1969-07-20T20:17:43+00:00'
+  siteDescription: MemE is a powerful and highly customizable GoHugo theme for personal
+    blogs.
+  siteLogo: /icons/apple-touch-icon.png
+  siteTwitter: reuixiy
+  smallestFontSize: 1
+  squareBrackets: yes
+  tabSize: 4
+  themeColor: '#fff'
+  themeColorDark: '#16171d'
+  trackingCodeType: gtag
+  trackingID: ''
+  twitterCards: yes
+  utterancesIssueTerm: pathname
+  utterancesLabel: ''
+  utterancesRepo: ''
+  utterancesTheme: github-light
+  utterancesThemeDark: photon-dark
+  valineAppId: ''
+  valineAppKey: ''
+  valineAvatar: mm
+  valineAvatarForce: no
+  valineEmojiCDN: ''
+  valineEmojiMaps: {}
+  valineEnableQQ: no
+  valineHighlight: yes
+  valineLang: en
+  valineMeta:
+    - nick
+    - mail
+    - link
+  valinePageSize: 10
+  valinePath: ''
+  valinePlaceholder: Just go go
+  valineRecordIP: no
+  valineRequiredFields: []
+  valineServerURLs: ''
+  valineVisitor: no
+  videoHostURL: https://example.com/
+  wordCountIcon: pencil-alt
+  yandexMetrikaId: ''
