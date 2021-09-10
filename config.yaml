@@ -1,430 +1,47 @@
-baseURL: https://klaustrista.xyz/
-title: Klaus & Trista 的故事
-languageCode: en
+baseurl: https://klaustrista.xyz
+title: Klaus & Trista's daily 
+author: Klaus Gong
+canonifyurls: yes
+languagecode: en
+theme: hugo-tanka
+enableEmoji: yes
 hasCJKLanguage: no
-copyright: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)'
-theme: hugo-theme-meme
-newContentEditor: ''
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: no
-pluralizeListTitles: no
-summaryLength: 42
-enableEmoji: no
-footnoteReturnLinkContents: ↩
-enableGitInfo: no
-enableRobotsTXT: yes
-paginate: 5
-disablePathToLower: no
-relativeURLs: no
-uglyURLs: no
-permalinks:
-  categories: /categories/:slug/
-  tags: /tags/:slug/
-taxonomies:
-  category: categories
-  tag: tags
-frontmatter:
-  lastmod:
-    - lastmod
-    - :git
-    - :fileModTime
-    - :default
-markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    extensions:
-      definitionList: yes
-      footnote: yes
-      linkify: yes
-      strikethrough: yes
-      table: yes
-      taskList: yes
-      typographer: yes
-    parser:
-      attribute: yes
-      autoHeadingID: yes
-      autoHeadingIDType: github
-    renderer:
-      hardWraps: no
-      unsafe: yes
-      xHTML: no
-  highlight:
-    codeFences: yes
-    guessSyntax: no
-    lineNos: yes
-    lineNumbersInTable: yes
-    noClasses: no
-  tableOfContents:
-    endLevel: 6
-    ordered: yes
-    startLevel: 2
-minify:
-  tdewolff:
-    html:
-      keepWhitespace: no
-author:
-  avatar: /icons/apple-touch-icon.png
-  email: reuixiy@gmail.com
-  motto: Viva La Vida
-  name: reuixiy
-  twitter: reuixiy
-  website: https://io-oi.me/
-related:
-  includeNewer: yes
-  indices:
-    - name: categories
-      weight: 100
-    - name: tags
-      weight: 95
-    - name: date
-      pattern: '2006'
-      weight: 10
-  threshold: 80
-  toLower: yes
-mediaTypes:
-  application/atom+xml:
-    suffixes: xml
-outputFormats:
-  Algolia:
-    baseName: algolia
-    isPlainText: yes
-    mediaType: application/json
-    notAlternative: yes
-  SearchIndex:
-    baseName: search
-    mediaType: application/json
-  SectionsAtom:
-    baseName: atom
-    mediaType: application/atom+xml
-  SectionsRSS:
-    baseName: rss
-    mediaType: application/rss+xml
-outputs:
-  home:
-    - HTML
-    - SectionsAtom
-    - SectionsRSS
-    - SearchIndex
-  page: HTML
-  section: HTML
-  taxonomy: HTML
-  term: HTML
-services:
-  rss:
-    limit: -1
-menu:
-  main:
-    - name: Posts
-      post: archive
-      pre: internal
-      url: /posts/
-      weight: 2
-    - name: Categories
-      post: th
-      pre: internal
-      url: /categories/
-      weight: 3
-    - name: Tags
-      post: tags
-      pre: internal
-      url: /tags/
-      weight: 4
-    - name: About
-      post: user-circle
-      pre: internal
-      url: /about/
-      weight: 5
-    - identifier: theme-switcher
-      weight: 6
-    - identifier: lang-switcher
-      weight: 7
-    - identifier: search
-      post: search
-      weight: 8
+pygmentsstyle: vs
+pygmentscodefences: yes
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
 params:
-  activeInSection: no
-  algoliaApiKey: ''
-  algoliaAppId: ''
-  algoliaIndexName: ''
-  anchorIcon: link
-  anchorSymbol: '#'
-  autoDetectImages: yes
-  autoHideLangToggle: yes
-  autoLoadComments: no
-  backToTopIcon: arrow-up
-  badgeTitlePrefix: 'Updated @ '
-  busuanziPagePVIcon: eye
-  busuanziSitePVIcon: eye
-  busuanziSitePVText: Site PV
-  busuanziSiteUVIcon: user
-  busuanziSiteUVText: Site UV
-  captionPrefix: '◎ '
-  categoryBy: categories
-  categoryDelimiter: /
-  categoryIcon: folder
-  chineseZodiac: yes
-  customFooter: ''
-  defaultTheme: light
-  deleteHrBeforeDropCap: no
-  disableMathJaxMenu: no
-  displayBackToTopInHome: yes
-  displayBackToTopOnMobile: no
-  displayBusuanziPagePV: no
-  displayBusuanziSiteUVAndPV: no
-  displayCategory: yes
-  displayCommitHash: yes
-  displayCommitMessage: yes
-  displayCopyleftSymbol: no
-  displayCopyrightSymbol: yes
-  displayEditLink: yes
-  displayExpiredDate: yes
-  displayFeedback: yes
-  displayFooter: yes
-  displayFooterInHome: yes
-  displayHeaderInHome: yes
-  displayListTitle: yes
-  displayMenuInHome: yes
-  displayModifiedDate: yes
-  displayPostCopyright: yes
-  displayPostDescription: yes
-  displayPostGitInfo: no
-  displayPostShare: yes
-  displayPosts: yes
-  displayPostsCount: yes
-  displayPoweredBy: yes
-  displayPublishedDate: yes
-  displayReadingTime: yes
-  displayRelatedPosts: yes
-  displayShareOnText: no
-  displaySiteCopyright: yes
-  displaySiteCreatedYear: yes
-  displayTOCNum: yes
-  displayTOCTitle: yes
-  displayTaxonomyTermCount: yes
-  displayUpdatedBadge: yes
-  displayWordCount: yes
-  disqusShortname: ''
-  duration: 0.5
-  editIcon: edit
-  editText: Edit Me?
-  enableAboutPageMinimalFooter: no
-  enableAlgoliaSearch: no
-  enableAnchorAutoHide: yes
-  enableAnchorLink: yes
-  enableBackToTop: yes
-  enableBackToTopAutoHide: yes
-  enableBadgeTitle: yes
-  enableCaption: yes
-  enableChinesePunctuationGlyphCorrection: no
-  enableComments: no
-  enableCopy: yes
-  enableCopyAutoHide: yes
-  enableDarkMode: yes
-  enableDisqus: no
-  enableDropCap: yes
-  enableDropCapAfterHr: no
-  enableEmphasisPoint: no
-  enableFingerprint: yes
-  enableFooter: yes
-  enableForceHTTPS: no
-  enableGitalk: no
-  enableGoogleAdUnits: no
-  enableGoogleAnalytics: no
-  enableGoogleAutoAds: no
-  enableHeader: yes
-  enableHeaderAutoHide: no
-  enableHeadingsAnchor: yes
-  enableHighlight: yes
-  enableImageHost: no
-  enableInstantPage: yes
-  enableJustify: no
-  enableKaTeX: no
-  enableLangToggle: no
-  enableLunrSearch: yes
-  enableMathJax: no
-  enableMediumZoom: yes
-  enableMenu: yes
-  enableMermaid: no
-  enableMinimalFooter: no
-  enableNavToggle: yes
-  enableOverflowY: yes
-  enableParagraphIndent: yes
-  enablePostCopyright: yes
-  enablePostGitInfo: no
-  enablePostMeta: yes
-  enablePostMetaInHome: yes
-  enablePostNav: yes
-  enablePostShare: yes
-  enablePostTags: yes
-  enablePostUpdatedBadge: yes
-  enableRelatedPosts: yes
-  enableSRI: no
-  enableServiceWorker: no
-  enableSmallCaps: yes
-  enableSmoothScroll: yes
-  enableSocials: yes
-  enableTOC: no
-  enableTagCloud: yes
-  enableTree: yes
-  enableUtterances: no
-  enableValine: no
-  enableVerticalBarStructure: no
-  enableVideoHost: no
-  expiredDateIcon: calendar-times
-  feedbackIcon: question
-  feedbackText: Feedback
-  fofPoster: ''
-  fofVideoMp4: ''
-  fofVideoWebm: ''
-  fontFamilyBody: '''IBM Plex Serif'', serif'
-  fontFamilyCaption: ''
-  fontFamilyCode: '''Source Code Pro'', monospace'
-  fontFamilyFooter: ''
-  fontFamilyHeadings: '''Comfortaa'', sans-serif'
-  fontFamilyMenu: ''
-  fontFamilyQuote: ''
-  fontFamilySiteBrand: ''
-  fontFamilyTOC: ''
-  fontFamilyTitle: '''Comfortaa'', sans-serif'
-  fontSize: 18
-  fontUnit: em
-  fontsLink: https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@700&display=swap
-  footnoteReturnLinkIcon: angle-up
-  gitIcon: code-branch
-  gitalkAdmin: your_gitalk_admin
-  gitalkClientID: your_client_id
-  gitalkClientSecret: your_client_secret
-  gitalkCreateIssueManually: no
-  gitalkDistractionFreeMode: no
-  gitalkEnableHotKey: yes
-  gitalkLable: Gitalk
-  gitalkLanguage: en
-  gitalkOwner: your_gitalk_owner
-  gitalkPagerDirection: last
-  gitalkPerPage: 10
-  gitalkProxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
-  gitalkRepo: your_repository
-  googleAdClient: ''
-  googleAdSlot: ''
-  googleSiteVerification: ''
-  groupByMonth: yes
-  headAlso: no
-  headerBackground: 'linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a
-    30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%)'
-  headerLayout: flex
-  headingsOpt: 1-6
-  hideLangToggleInHome: no
-  hideThemeToggle: no
-  hideThemeToggleInHome: no
-  homeDescription: ''
-  homeKeywords: ''
-  homeLayout: posts
-  homeLinksDelimiter: ''
-  homeLinksPadding: 1
-  homeLogo: ''
-  homeLogoLink: ''
-  homeMotto: ''
-  homePoetry: []
-  homePoster: ''
-  homeTitle: ''
-  homeVideoMp4: ''
-  homeVideoWebm: ''
-  hrefTargetBlank: yes
-  i18nMonth: no
-  i18nYear: no
-  iconAnimation: yes
-  iconBetweenYearAndAuthor: heart
-  iconColor: '#f06292'
-  imageHostURL: https://example.com/
-  includeContent: yes
-  indentFirstParagraph: no
-  insertHrBySelf: yes
-  jsonLD: yes
-  largestFontSize: 2.5
-  limitEntriesLimit: -1
-  limitPostsLimit: -1
-  lineHeight: 1.618
-  linkHeadingsToTOC: yes
-  listDateFormat: January 2
-  listDatePosition: right
-  listWidth: 36
-  maxHeight: 20
-  mermaidTheme: default
-  mermaidThemeDark: dark
-  modifiedDateIcon: calendar-check
-  msApplicationTileColor: '#fff'
-  msgIcon: info
-  navHeight: 10em
-  openGraph: yes
-  original: yes
-  overrideSystemPreferences: no
-  paragraphStyle: margin
-  postMetaDateFormat: 2006.1.2
-  postNavInSection: yes
-  postTagsIcon: tag
-  postWidth: 36
-  primaryColorDark: 201, 65%, 62%
-  primaryColorLight: 220, 90%, 56%
-  publishedDateIcon: calendar-alt
-  readingTimeIcon: clock
-  relatedPostsIcon: plus-circle
-  relatedPostsNumber: 5
-  repoEditURL: ''
-  repoURL: ''
-  safariMaskColor: '#2a6df4'
-  shareOnDouban: yes
-  shareOnFacebook: yes
-  shareOnLinkedIn: yes
-  shareOnQQ: yes
-  shareOnQzone: yes
-  shareOnTelegram: yes
-  shareOnTwitter: yes
-  shareOnWeibo: yes
-  shareViaQRCode: yes
-  siteBrandFontColor: var(--color-contrast-high)
-  siteBrandFontSize: 1
-  siteBrandSVG: no
-  siteBrandSVGFill: '#fff'
-  siteBrandSVGHeight: 100
-  siteBrandSVGWidth: 250
-  siteCreatedTime: '1969-07-20T20:17:43+00:00'
-  siteDescription: MemE is a powerful and highly customizable GoHugo theme for personal
-    blogs.
-  siteLogo: /icons/apple-touch-icon.png
-  siteTwitter: reuixiy
-  smallestFontSize: 1
-  squareBrackets: yes
-  tabSize: 4
-  themeColor: '#fff'
-  themeColorDark: '#16171d'
-  trackingCodeType: gtag
-  trackingID: ''
-  twitterCards: yes
-  utterancesIssueTerm: pathname
-  utterancesLabel: ''
-  utterancesRepo: ''
-  utterancesTheme: github-light
-  utterancesThemeDark: photon-dark
-  valineAppId: ''
-  valineAppKey: ''
-  valineAvatar: mm
-  valineAvatarForce: no
-  valineEmojiCDN: ''
-  valineEmojiMaps: {}
-  valineEnableQQ: no
-  valineHighlight: yes
-  valineLang: en
-  valineMeta:
-    - nick
-    - mail
-    - link
-  valinePageSize: 10
-  valinePath: ''
-  valinePlaceholder: Just go go
-  valineRecordIP: no
-  valineRequiredFields: []
-  valineServerURLs: ''
-  valineVisitor: no
-  videoHostURL: https://example.com/
-  wordCountIcon: pencil-alt
-  yandexMetrikaId: ''
+  faviconfile: images/favicon.png
+  highlightjs: yes
+  highlightjslanguages:
+    - r
+    - python
+    - stan
+  progressively: no
+  sitename: Klaus & Trista's daily
+  uselatex: yes
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+menu:
+  primary:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+    - name: GitHub
+      url: https://github.com/klausegong
+      weight: 3
+    - name: Twitter
+      url: https://twitter.com/nanxstats
+      weight: 4
+    - name: Subscribe
+      url: /index.xml
+      weight: 5
