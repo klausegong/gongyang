@@ -1,5 +1,5 @@
 ---
-title: 小杨和小的专属Logo
+title: 小杨和小龚的专属Logo
 author: 龚振庭
 date: '2021-09-10'
 slug: []
