@@ -15,7 +15,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 
 [params]
   sitename = "Hugo Tanka Theme"
-  faviconfile = "images/favicon.png"
+  faviconfile = "images/favicon.jpg"
   highlightjs = true
   highlightjslanguages = ["r", "python", "stan"]
   uselatex = true

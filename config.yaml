@@ -15,14 +15,14 @@ ignoreFiles:
   - \.knit\.md$
   - \.utf8\.md$
 params:
-  faviconfile: images/favicon.png
+  faviconfile: images/favicon.jpg
   highlightjs: yes
   highlightjslanguages:
     - r
     - python
     - stan
   progressively: no
-  sitename: Klaus & Trista's daily
+  sitename: Klaus & Trista's Daily
   uselatex: yes
 markup:
   goldmark:
@@ -30,18 +30,18 @@ markup:
       unsafe: yes
 menu:
   primary:
-    - name: Home
+    - name: 主页
       url: /
       weight: 1
-    - name: About
+    - name: 简介
       url: /about/
       weight: 2
     - name: GitHub
       url: https://github.com/klausegong
       weight: 3
-    - name: Twitter
+    - name: Facebook
       url: https://twitter.com/nanxstats
       weight: 4
-    - name: Subscribe
-      url: /index.xml
+    - name: Vlog
+      url: https://www.bilibili.com/video/BV17q4y1H7KL?from=search&seid=15212200060406723459&spm_id_from=333.337.0.0
       weight: 5
