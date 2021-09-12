@@ -64,17 +64,17 @@ params:
   leancloud_app_id: ''
   leancloud_app_key: ''
   omit_categories: no
-  page_view_conter: no
-  reward: yes
+  page_view_conter: yes
+  reward: no
   sidebar_about_description: DEA,Time Series,Economic,Git
   sidebar_avatar: img/klausself.jpg
-  slogan: Time is love
+  slogan: TIME IS LOVE
   social:
     email: klausegong@gmail.com
     github: https://github.com/klausegong
-    linkedin: https://www.linkedin.com/in/yourlinkedinid
+    #linkedin: https://www.linkedin.com/in/yourlinkedinid
     rss: yes
-    stackoverflow: https://stackoverflow.com/users/yourstackoverflowid
+    #stackoverflow: https://stackoverflow.com/users/yourstackoverflowid
     wechat: img/klauswechat_QR_code.jpg
   title_404: 你来到了没有知识的荒原 :(
 outputFormats:
