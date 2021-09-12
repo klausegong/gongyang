@@ -67,7 +67,7 @@ params:
   page_view_conter: no
   reward: yes
   sidebar_about_description: Software Developer, Open Source Enthusiast and Life Adventurer
-  sidebar_avatar: img/zhaohuabing.png
+  sidebar_avatar: img/klausself.jpg
   slogan: Time is love
   social:
     email: klausegong@gmail.com
@@ -75,7 +75,7 @@ params:
     linkedin: https://www.linkedin.com/in/yourlinkedinid
     rss: yes
     stackoverflow: https://stackoverflow.com/users/yourstackoverflowid
-    wechat: your wechat qr code image
+    wechat: img/klauswechat_QR_code.jpg
   title_404: 你来到了没有知识的荒原 :(
 outputFormats:
   Algolia:
