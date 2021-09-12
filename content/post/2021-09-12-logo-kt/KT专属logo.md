@@ -16,6 +16,6 @@ I like to feel your eyes on me when I look away.
 
 <div class="figure">
 
-![](/images/favicon.jpg)
+![avatar](https://note.youdao.com/s/MB98bV0s)
 
 <p class="caption">Klaus&Trista. Designed by Klaus Gong</a></p>
