@@ -1,5 +1,5 @@
 ---
-title: 专属Logo-KT
+title: K&T专属Logo
 author: 龚振庭
 date: '2021-09-12'
 slug: []
