@@ -1,7 +1,7 @@
 ---
 title: Quality and Economies of Scale in Taiwan Higher Education:-An Application of
   CMPG Index
-author: R package build
+author: Klaus
 date: '2021-09-14'
 slug: []
 categories:
