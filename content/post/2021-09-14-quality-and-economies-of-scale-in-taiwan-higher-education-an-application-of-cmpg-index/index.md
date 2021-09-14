@@ -40,8 +40,8 @@ image: ''
   indicate both of which have an improvement in cost-oriented
   productivity of them.
 
-  **Keywords:** Data envelopment analysis;Meta-CM-Productivity Gap
-  Index;HELs of Taiwan.
+  **Keywords:** Data envelopment analysis;Meta-CM-Productivity Gap Index;HELs of Taiwan
+
 author:
 - Chun-Ting Kung
 - Yung-Lieh Yang[^1]
