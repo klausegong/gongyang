@@ -13,7 +13,6 @@ description: ''
 image: ''
 ---
 
----
 <font size="13">**Quality and Economies of Scale in Taiwan Higher Education:-An Application of CMPG Index**</font>
   
 **Abstract:** 
