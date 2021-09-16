@@ -214,7 +214,8 @@ P^t_*=conv\{(x^t,y^t)|x^t \textrm{ can produce } y^t\}
 \end{split}$$
 
 So, input requirement set of the j-th group and Meta-frontier at the
-period t can be expressed as follows: $$\begin{split}
+period t can be expressed as follows: 
+$$\begin{split}
 L^t_j(y^t)=\{x^t|(x^t,y^t)\in{P^t_j}\}\\
 L^t_*(y^t)=\{x^t|(x^t,y^t)\in{P^t_\ast}\}
 \end{split}$$
