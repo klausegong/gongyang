@@ -39,6 +39,7 @@ I love you.
 
 &emsp;&emsp;Felix Gonzalez-Torres（冈萨雷斯-托雷斯）出生于古巴，同性恋视觉艺术家，雕塑家，观念艺术家。
 20世纪70年代晚期定居于纽约，在这里，他学习了艺术并开始进行他的艺术实践，直到1996年他因艾滋病并发症而去世，享年38岁。他在20世纪80年代时加入了艺术组合“Group Material”，是一名活跃的社会积极分子，并在一段相对较短的时间里创作了一些具有深刻影响力的作品。这些作品与概念艺术及极简主义艺术都具有决定性的关系，它们将政治评论、情感影响以及形式上的深刻关系融入到各种媒介之中——包括绘画、雕塑以及公共广告牌等。他通常将普通的物品用作出发点：钟表、镜子或是灯具等。这些作品都具有一种不稳定性以及改变的可能性。————Wikipedia
+
 ![](/post/2021-09-16-felix-gonzalez-torres-amour-jamais-pour-toujours-soucis-de-l-éternité/perfet_lovers_files/Félix_González-Torres.jpg)
 
 &emsp;&emsp;一对时钟又可以是两面镜子，对称的偶数在Félix的创作中最为常见。艺术评论家Nicolas Bourriaud曾这样形容作品所带来的感受：从来都不是用「一个」来表示孤独，而是用「另一个」的缺席来表示。
@@ -47,6 +48,7 @@ I love you.
 &emsp;&emsp;即使知道最深刻的爱依旧敌不过时间，再长久的陪伴也会迎来分离，甚至所有的偶数最终都会归于单数，Félix仍想感谢时间的慷慨，让他和恋人能够在有限的生命中相遇、相识、相爱与相伴。
 
 完整「Perfect Lovers」系列可以[clik here](https://www.felixgonzalez-torresfoundation.org/works/untitled-perfect-lovers)
+
 ![](/post/2021-09-16-felix-gonzalez-torres-amour-jamais-pour-toujours-soucis-de-l-éternité/perfet_lovers_files/完整.jpg)
 
 
