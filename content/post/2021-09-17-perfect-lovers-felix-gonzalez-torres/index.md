@@ -1,5 +1,5 @@
 ---
-title: Felix Gonzalez-Torres ---Perfect Lovers
+title: Perfect Lovers---Felix Gonzalez-Torres 完美的恋人
 author: Klaus
 date: '2021-09-17'
 slug: []
