@@ -1,5 +1,5 @@
 ---
-title: Felix Gonzalez-Torres 完美的恋人---Amour, jamais pour toujours, soucis de l'éternité
+title: Felix Gonzalez-Torres 完美的恋人---L'amour n'est pas éternel, mais il y a l'éternité.
 author: Klaus
 date: '2021-09-16'
 slug: []
@@ -11,6 +11,8 @@ subtitle: ''
 description: ''
 image: '![](images/clock.jpeg)'
 ---
+*L'amour n'est pas éternel, mais il y a l'éternité*
+
 &emsp;&emsp;人们传统观念里代表爱的符号是给爱人带上的戒指，情人节送的玫瑰花等等，记得以前和一位心理学专业的朋友曾经讨论过为什么情侣间要互相赠送礼物这个问题，给了我一个至今仍然觉得非常恰当的回答「爱需要载体啊」，当然并不是越贵重的礼物承载的爱就越多，这就容易走上形而上学的路子了，举个例子：情侣间最常说的一句是「我爱你」，诚然，语言是有力量的，如果加上这么个场景，清晨要去上班的你在出门前给你另外一半一个Kiss,画面感是不是开始产生了，这时候，如果刚好这时给你递上一份早餐，说路上吃，别饿着，那么这份早餐就是「爱的载体」，并不贵重但满含爱意。
 
 &emsp;&emsp;嘀嗒，嘀嗒，会不会有永恒的爱呢，我回答不了，在意外中看到了[Felix Gonzalez-Torres](https://www.felixgonzalez-torresfoundation.org/#)在1991年的作品---「Perfect Lovers」,倒是让我体会到了爱虽不存在着永远但有永恒，比较恰当的表述应该可以用苏轼的 “十年生死两茫茫，不思量，自难忘”。
