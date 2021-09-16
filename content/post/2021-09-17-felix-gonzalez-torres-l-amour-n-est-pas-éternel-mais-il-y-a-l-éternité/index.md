@@ -1,7 +1,7 @@
 ---
 title: Felix Gonzalez-Torres 完美的恋人---L'amour n'est pas éternel, mais il y a l'éternité.
 author: Klaus
-date: '2021-09-16'
+date: '2021-09-17'
 slug: []
 categories:
   - Daily
@@ -26,21 +26,21 @@ We are synchronized, now and forever.
 I love you.
 
 （不要害怕时钟，那是专属我们的时间。时间对我们是如此的慷慨。我们把胜利的甜蜜镌刻在时间里，我们征服了命运，在特定的时间和空间中相遇。我们是时间的产物，所以我们应该要称赞它。我们是同步的，现在和永远，我爱你。）
-![](/post/2021-09-16-felix-gonzalez-torres-amour-jamais-pour-toujours-soucis-de-l-éternité/perfet_lovers_files/letter.jpg)
+![](images/letter.jpg)
 这时的你或许会觉得Félix这时候肯定是处于热恋期，事实上，此时的Félix已经是激情归于平淡，体会爱情为何的人，用我最喜欢八戒的一句：
-![](/post/2021-09-16-felix-gonzalez-torres-amour-jamais-pour-toujours-soucis-de-l-éternité/perfet_lovers_files/bajie.jpg)
+![](images/bajie.jpg)
 ----有兴趣的小伙伴可以[click](https://www.bilibili.com/video/BV1jW411Y7vk?from=search&seid=4879691198350067625&spm_id_from=333.337.0.0)这里看完整版～～
 
 &emsp;&emsp;扯远了差点离题，「Perfect Lovers」的创作背景是Felix Gonzalez-Torres在得知他的同性爱人Ross Lawcock患上艾滋病后，在他爱人离世前不久创造了这个作品，不久他也因艾滋病离开了。作品摆设在在淡蓝色的背景下，Gonzalez Torres说：“对我来说，如果一段美丽的记忆可以用一种颜色来形容，它将是淡蓝色。”
 
-![](/post/2021-09-16-felix-gonzalez-torres-amour-jamais-pour-toujours-soucis-de-l-éternité/perfet_lovers_files/walk_clock.jpg)
+![](images/walk_clock.jpg)
 
 > “我们就像两个步调一致的时钟，永远并肩而行。”
 
 &emsp;&emsp;Felix Gonzalez-Torres（冈萨雷斯-托雷斯）出生于古巴，同性恋视觉艺术家，雕塑家，观念艺术家。
 20世纪70年代晚期定居于纽约，在这里，他学习了艺术并开始进行他的艺术实践，直到1996年他因艾滋病并发症而去世，享年38岁。他在20世纪80年代时加入了艺术组合“Group Material”，是一名活跃的社会积极分子，并在一段相对较短的时间里创作了一些具有深刻影响力的作品。这些作品与概念艺术及极简主义艺术都具有决定性的关系，它们将政治评论、情感影响以及形式上的深刻关系融入到各种媒介之中——包括绘画、雕塑以及公共广告牌等。他通常将普通的物品用作出发点：钟表、镜子或是灯具等。这些作品都具有一种不稳定性以及改变的可能性。————Wikipedia
 
-![](/post/2021-09-16-felix-gonzalez-torres-amour-jamais-pour-toujours-soucis-de-l-éternité/perfet_lovers_files/Félix_González-Torres.jpg)
+![](images/Félix_González-Torres.jpg)
 
 &emsp;&emsp;一对时钟又可以是两面镜子，对称的偶数在Félix的创作中最为常见。艺术评论家Nicolas Bourriaud曾这样形容作品所带来的感受：从来都不是用「一个」来表示孤独，而是用「另一个」的缺席来表示。
 
@@ -50,7 +50,7 @@ I love you.
 
 完整「Perfect Lovers」系列可以[clik here](https://www.felixgonzalez-torresfoundation.org/works/untitled-perfect-lovers)
 
-![](/post/2021-09-16-felix-gonzalez-torres-amour-jamais-pour-toujours-soucis-de-l-éternité/perfet_lovers_files/complete.jpg))
+![](images/complete.jpg)
 
 
 
