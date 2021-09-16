@@ -6,7 +6,7 @@ slug: []
 categories:
   - Daily
 tags:
-  - Design
+  - 随笔
 subtitle: ''
 description: ''
 image: ''
