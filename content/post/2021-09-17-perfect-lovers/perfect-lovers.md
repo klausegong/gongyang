@@ -54,3 +54,4 @@ I love you.
 &emsp;&emsp;即使知道最深刻的爱依旧敌不过时间，再长久的陪伴也会迎来分离，甚至所有的偶数最终都会归于单数，Félix仍想感谢时间的慷慨，让他和恋人能够在有限的生命中相遇、相识、相爱与相伴。
 
 完整「Perfect Lovers」系列可以[clik here](https://www.felixgonzalez-torresfoundation.org/works/untitled-perfect-lovers)
+![](/post/2021-09-17-perfect-lovers/perfect-lovers_files/complete.jpg)
