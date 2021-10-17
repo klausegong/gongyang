@@ -42,7 +42,7 @@ image: ''
 &emsp;&emsp;经过了和制作团队的讨论，我们还在片中还增加了表明时间线的mark，2017-2021年，除了2021年在最后的手机界面直接体现，其余年份我们分别用了丁酉年，戊戌年，己亥年和庚子年来代表。
 ![](/post/2021-10-17-/firstvlog_files/时间mark.jpg)
 &emsp;&emsp;至此，龚导演的处女作「与你常在」拍摄与剪辑小结画上句号，大家有兴趣可以点击[「与你常在」](https://www.bilibili.com/video/BV16f4y1774P/)观看成片。
-![](/post/2021-10-17-/firstvlog_files/获奖1.jpg)
+![](/post/2021-10-17-/firstvlog_files/获奖修改.jpg)
 
 
 
