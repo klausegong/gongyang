@@ -204,11 +204,14 @@ scholars chose in their paper on the table followed.
 Assume that the Taiwan HELs are divided into j groups, set j=1,2, . . .
 ,J. The k-th HELs of j -th group utilizes N inputs for producing M
 outputs, set t=1,2, . . . ,T to express the period t . The vector of
-inputs is $x^t\in\Re^N_+$ , and the vector of outputs is
-$y^t\in\Re^M_+$.
+inputs is $x^t\in\Re_+^N$, and the vector of outputs is
+$y^t\in\Re_+^M$.
+
 
 So, the production possibility set of the j-th group and Meta-frontier
-at the period t can be expressed as follows: $$\begin{split}
+at the period t can be expressed as follows: 
+
+$$\begin{split}
 P^t_j=\{(x^t,y^t)|x^t\textrm{ can produce } y^t\}\\
 P^t_*=conv\{(x^t,y^t)|x^t \textrm{ can produce } y^t\}
 \end{split}$$
