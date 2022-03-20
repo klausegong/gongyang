@@ -59,7 +59,7 @@ params:
   friends: no
   header_image: img/home-blackground.jpg
   image_404: img/404-bg.jpg
-  keyword: 龚振庭, Klaus Gong, Trista Yang, R, Python,Klaus & Trista's Blog, 博客,
+  keyword: 龚振庭, Klaus Gong,  R, Python,Klaus's Blog, 博客,
     Fintect, 新媒体, SSH, Git,国际贸易 , 绩效评估, DEA , Time Series, Economic
   leancloud_app_id: ''
   leancloud_app_key: ''
